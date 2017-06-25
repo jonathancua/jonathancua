@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stingray Playground</title>
+        <script src="index.js"></script>
+    </head>
+
+    <body>
+        <form action="" method="get">
+            Environment:
+            <select name="env">
+                <option value="dev">Dev</option>
+                <option value="qa">QA</option>
+                <option value="prod">Prod</option>
+            </select>
+            Event id:
+            <input type="text" name="eid">
+            Modal:
+            <input type="checkbox" name="modal">
+            <input type="submit" value="Reload">
+        </form>
+
+        <div id="checkout-widget" style="margin-top: 10px;"></div>
+    </body>
+</html>
